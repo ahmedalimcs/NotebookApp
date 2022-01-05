@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.h1{
+    text-align: center;
+    text-shadow: 2px 3px 4px crimson;
+    color: wheat;
+    font-size: 80px;
+}
+/* body{
+    animation: change 10s infinite;
+}
+@keyframes change{
+    0%{background-color: rgb(129, 21, 21);}
+    25%{background-color: rgb(7, 54, 100);}
+    50%{background-color: rgb(12, 1, 1);}
+    75%{background-color: rgb(46, 107, 17);}
+    100%{background-color: whitesmoke;}
+} */
+
+.container{
+    text-align: center;
+}
+
+.div{
+    text-align: center;
+}
+
+.sam{
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    
+}
+
+.lov{
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;  
+}
+
+.btn1{
+    background-color: rgb(31, 1, 31);
+    color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.4s ease;
+
+}
+
+.btn2{
+    background-color: rgb(19, 0, 19);
+    color: whitesmoke;
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 10px;
+    transition: 0.4s ease;
+}
+
+.div .btn1:hover{
+    background-color: rgb(177, 20, 20);
+    transform: translate(-10px);
+}
+
+.div .btn2:hover{
+    background-color: rgb(182, 12, 12);
+    transform: translate(-10px);
+}
+
